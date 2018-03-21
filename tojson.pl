@@ -8,7 +8,7 @@ print "{";
 
 # Read from stdin or from file passed as argument
 while(<>){
-	($name, $tab) = /(.*),(.*)\n/g;
+	($name, $tab) = /([^,]*),([^,\n]*)/g;
 	if ( $name ne $ln ){
 		if ( $ln ne "firstrun" ){
 			print "],\n";
