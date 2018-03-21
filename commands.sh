@@ -2,7 +2,7 @@
 # Run like ./commands.sh
 # Author: Zach DeCook
 
-for filename in chords; do
+for filename in chords ukulelechords; do
 
 if [ "$(uname)" == "Darwin" ]; then
 	# sed on macos doesn't like \t, needs verbatim tab
