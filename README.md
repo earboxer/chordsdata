@@ -1,3 +1,7 @@
+# Moved development to GitLab
+
+## https://gitlab.com/earboxer/chordsdata
+
 # chordsdata
 
 ChordsData is a csv database of chord fingering information, with a script to convert into
